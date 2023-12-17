@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.divisoria2 {
+    background: linear-gradient(to top, rgba(0, 183, 255, 1), rgba(255, 255, 255, 0.2));
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 650px;
+}
+
+.imagem-logo {
+    padding: 5px 0px 10px 50px;
+}
+
+.texto6 {
+    padding: 7px;
+    font-size: 20px;
+  }
+
+.divisoria0 {
+    height: 160px;
+    background-color: white;
+}
+
+.divisoria1 {
+    background-color:  rgba(0, 183, 255, 1);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 90px;
+   
+}
+.divisoria001 {
+    padding: 0px 0px 50px 0px;
+}
+
+.titulo-areacliente {
+    color: rgba(5, 125, 223, 0.878);
+    font-size: 42px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    padding: 0px 20px 0px 270px;
+}
+
+.links-iniciais {
+    padding: 11px 10px 11px 10px;
+}
+
+.perfil-titulo {
+    width: 285px;
+    height: 500px;
+    background-color:darkslategray;
+}
+.imagem-titulo {
+    width: 17px;
+    height: 17px;
+}
+.boas-vindas {
+    text-align: center;
+    padding: 15px 0px 0px 0px;
+    font-size: 18px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.area-titulo {
+    padding: 2px 0px 0px 0px;
+}
+.caracteristicas-cliente {
+    padding: 20px 0px 0px 15px ;
+}
+.titulo-p1 {
+    background-color: rgb(148, 140, 140);
+    height: 50px;
+    width: 285px;
+    text-align: center;
+    border-radius: 3%;
+}
+.dadosPessoais {
+    text-align: center;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 18px;
+    padding: 0px 0px 20px 0px;
+}
+
+ul {
+    list-style-type: none;
+}

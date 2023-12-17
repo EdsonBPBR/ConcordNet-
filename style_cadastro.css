@@ -1,0 +1,306 @@
+      .body {
+          background-image: url(https://img.freepik.com/vetores-premium/conexao-de-rede-global-ponto-do-mapa-do-mundo_41981-1441.jpg);
+          background-size: cover;
+          background-repeat: no-repeat;
+      }
+      
+      .formulario {
+          display: flex;
+          justify-content: center;
+      }
+      
+      .espaco-coluna1 {
+          padding: 0px 15px 10px 0px;
+      }
+      
+      .espaco-coluna2 {
+          padding: 0px 150px 10px 0px;
+      }
+      
+      
+      .imagem-login {
+          padding: 30px 0px 55px 55px;
+      }
+      
+      .divisoria {
+          display: flex;
+          justify-content: center;
+      }
+      
+      h1#texto1 {
+          color: white;
+          text-align: start;
+          font-size: 40px;
+          font-weight: bold;
+          padding: 0px 20px 0px 240px ;
+          font-family:Verdana, Geneva, Tahoma, sans-serif;
+      }
+      
+      .entrada-nome {
+          height: 30px;
+          width: 350px;
+          font-size: 18px;
+          border-radius: 9%;
+      }
+      
+      .entrada-email {
+          height: 30px;
+          width: 350px;
+          font-size: 18px;
+          border-radius: 9%;
+      }
+      
+      .entrada-bairro {
+          height: 30px;
+          width: 350px;
+          font-size: 18px;
+          border-radius: 9%;
+      }
+      
+      .entrada-estado {
+          height: 30px;
+          width: 350px;
+          font-size: 18px;
+          border-radius: 9%;
+      }
+      
+      .entrada-estado {
+          height: 30px;
+          width: 350px;
+          font-size: 18px;
+          border-radius: 9%;
+      }
+      
+      .entrada-telefone {
+          height: 30px;
+          width: 350px;
+          font-size: 18px;
+          border-radius: 9%;
+      }
+      
+      .entrada-cidade {
+          height: 30px;
+          width: 350px;
+          font-size: 18px;
+          border-radius: 9%;
+      }
+      
+      .entrada-cpf {
+          height: 30px;
+          width: 330px;
+          width: 350px;
+          font-size: 18px;
+          border-radius: 9%;
+      }
+      
+      .entrada-n_casa {
+          height: 30px;
+          width: 350px;
+          font-size: 18px;
+          border-radius: 9%;
+      }
+      
+      .entrada-senhacadastro {
+          height: 30px;
+          width: 350px;
+          font-size: 18px;
+          border-radius: 9%;
+      }
+      
+      button#enviar {
+          height: 50px;
+          width: 200px;
+      }
+      
+      .campo-botaoes {
+          padding: 50px 0px 0px 100px;
+      }
+      
+      button#limpar {
+          height: 50px;
+          width: 160px;
+      }
+      
+      button#enviar {
+          height: 50px;
+          width: 160px;
+      
+      }
+      
+      .password-conteiner {
+          position: relative;
+      }
+          
+    .formulario {
+        display: flex;
+        justify-content: center;
+    }
+    
+    .espaco-coluna1 {
+        padding: 0px 15px 10px 0px;
+    }
+    
+    .espaco-coluna2 {
+        padding: 0px 150px 10px 0px;
+    }
+    
+    
+    .imagem-login {
+        padding: 30px 0px 55px 55px;
+    }
+    
+    .divisoria {
+        display: flex;
+        justify-content: center;
+    }
+    
+    h1#texto1 {
+        color: white;
+        text-align: start;
+        font-size: 40px;
+        font-weight: bold;
+        padding: 0px 20px 0px 240px ;
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+    }
+    
+    .entrada-nome {
+        height: 30px;
+        width: 350px;
+        font-size: 18px;
+        border-radius: 9%;
+    }
+    
+    .entrada-email {
+        height: 30px;
+        width: 350px;
+        font-size: 18px;
+        border-radius: 9%;
+    }
+    
+    .entrada-bairro {
+        height: 30px;
+        width: 350px;
+        font-size: 18px;
+        border-radius: 9%;
+    }
+    
+    .entrada-estado {
+        height: 30px;
+        width: 350px;
+        font-size: 18px;
+        border-radius: 9%;
+    }
+    
+    .entrada-estado {
+        height: 30px;
+        width: 350px;
+        font-size: 18px;
+        border-radius: 9%;
+    }
+    
+    .entrada-telefone {
+        height: 30px;
+        width: 350px;
+        font-size: 18px;
+        border-radius: 9%;
+    }
+    
+    .entrada-cidade {
+        height: 30px;
+        width: 350px;
+        font-size: 18px;
+        border-radius: 9%;
+    }
+    
+    .entrada-cpf {
+        height: 30px;
+        width: 330px;
+        width: 350px;
+        font-size: 18px;
+        border-radius: 9%;
+    }
+    
+    .entrada-n_casa {
+        height: 30px;
+        width: 350px;
+        font-size: 18px;
+        border-radius: 9%;
+    }
+    
+    .entrada-senhacadastro {
+        height: 30px;
+        width: 350px;
+        font-size: 18px;
+        border-radius: 9%;
+    }
+    
+    button#enviar {
+        height: 50px;
+        width: 200px;
+    }
+    
+    .campo-botaoes {
+        padding: 50px 0px 0px 100px;
+    }
+    
+    button#limpar {
+        height: 50px;
+        width: 160px;
+    }
+    
+    button#enviar {
+        height: 50px;
+        width: 160px;
+    
+    }
+    
+    .password-conteiner {
+        position: relative;
+    }
+    .imagem1 {
+        height: 37px;
+        width: 40px;
+    }
+    
+    .imagem-pergunta {
+        padding: 0px 0px 13px 0px;
+    }
+    
+    .realizar-login {
+        font-size: 17px;
+        font-family: 'Times new';
+        text-align: center;
+        font-weight: bold;
+        color: white;
+    }
+    
+    .divisoria2 {
+        display: flex;
+        justify-content: center;
+        padding: 30px 25px 0px 0px;
+    }
+    
+    }
+    
+    .imagem1 {
+        height: 37px;
+        width: 40px;
+    }
+    
+    .imagem-pergunta {
+        padding: 0px 0px 13px 0px;
+    }
+    
+    .realizar-login {
+        font-size: 17px;
+        font-family: 'Times new';
+        text-align: center;
+        font-weight: bold;
+        color: white;
+    }
+    
+    .divisoria2 {
+        display: flex;
+        justify-content: center;
+        padding: 30px 25px 0px 0px;
+    }

@@ -1,0 +1,796 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.divisoria {
+  height: 30px;
+  background-color:white ;
+  display: flex;
+  justify-content: end;
+  padding: 0px 10px 0px 0px;
+}
+
+.linksiniciais0 {
+  padding: 5px 15px 0px 0px;
+}
+
+.body1 {
+  background-color:white;
+  height: 100px;
+}
+
+.body2 {
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/World_map_%28blue_dots%29.svg/1280px-World_map_%28blue_dots%29.svg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 800px;
+  opacity: 110%;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+}
+
+.container-final {
+  margin: 0 auto;
+  padding: 15px;
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 20px;
+  color: black;
+
+}
+
+header {
+  color: white;
+}
+
+header h1 {
+  font-size: 36px;
+  margin-right: 20px;
+}
+
+nav ul {
+  list-style-type: none;
+}
+
+nav ul li {
+  display: inline-block;
+  margin-right: 10px;
+  font-weight: bold;
+}
+
+nav ul li a {
+  color: black;
+  text-decoration: none;
+}
+
+
+section#servicos ul {
+  list-style-type: none;
+  margin-bottom: 20px;
+}
+
+section#servicos ul li {
+  margin-bottom: 10px;
+}
+
+section#carrossel {
+  background-color: white;
+  padding: 20px;
+}
+
+footer {
+  background-color: navy;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+.linksiniciais {
+  display: flex;
+  justify-content: end;
+  text-align: center;
+  font: 20px normal Impact
+}
+
+.ebpnet {
+  text-align: start;
+  font-size: 60px;
+  height: 50px;
+  padding: 0px 0px 30px 0px
+}
+
+.Pesquisa {
+    padding: 8px;
+    width: 200px;
+    height: 10px;
+    border-radius: 15%;
+    display: flex;
+    justify-content: center;
+}
+
+.Pesquisa button {
+    padding: 5px 10px;
+    border-radius: none;
+    background-color: rgb(58, 165, 198);
+    width: 550px;
+    height: 30px;
+}
+
+.campoPesquisa {
+    padding: 15px;
+}
+
+.entrada {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    border-radius: none;
+    width: 560px;
+    height: 30px;    
+}
+.links2 {
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 0px 30px 0px 45px;
+}
+
+.carrossel {
+  width: 400px;
+  height: 300px;
+  overflow: hidden;
+  position: relative;
+}
+
+.carrossel-inner {
+  overflow-x: scroll;
+  scroll-behavior: smooth;
+  width: 100%;
+  height: 100%;  
+}
+
+.carrossel-inner img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  scroll-snap-align: start;
+}
+
+.carrossel::-webkit-scrollbar {
+
+  display: none;
+}
+.objetivo {
+  font: 20px bold Times
+}
+
+.container-inicial {
+    padding: 10px 0px 10px 0px;
+}
+.imagem-logo {
+    padding: 0px 30px 5px 35px;
+}
+.logo-facebook {
+    width: 35px;
+    height: 35px;
+}
+
+.logo-instagram {
+    width: 35px;
+    height: 35px;
+}
+.icones-redes {
+    padding: 0px 35px 0px 50px;
+
+}
+.servicosSA {
+    height: 120px;
+}
+
+h1#propaganda1 {
+    text-align: center;
+    color: rgba(255, 255, 255, 0.899);
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 135px 0px 20px 25px; 
+}
+
+section#divisoria1 {
+    height: 600px;
+    background: linear-gradient(to top, rgba(0, 183, 255, 1), rgba(255, 255, 255, 0.2));
+}
+
+
+button#botao1 {
+    background-color: aqua;
+    width: 120px;
+    height: 50px;
+}
+.local-botao1 {
+    padding: 0px 0px 0px 135px;
+}
+
+.contratar-inicial {
+    display: flex;
+    justify-content: end;
+    padding: 0px 90px 0px 70px;    
+}
+
+.propaganda2 {
+  width: 410px;
+  height: 290px;
+  padding: 20px 0px 30px 0px;
+  border-radius: 10%;
+}
+
+h1#residencial {
+  font: 30px normal Times;
+  padding: 50px 70px 10px 35px;
+  color:  rgba(5, 125, 223, 0.878);
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+h1#corporativo {
+  font: 30px normal Times;
+  padding: 50px 70px 10px 35px;
+  color:  rgba(5, 125, 223, 0.878);
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  
+}
+h1#dedicado {
+  font: 30px normal Times;
+  padding: 50px 70px 10px 35px;
+  color:  rgba(5, 125, 223, 0.878);
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.imagens-propaganda3 {
+  width: 305px;
+  height: 190px;
+  border-radius: 6%;
+  padding: 0px 0px 5px 0px;
+}
+
+section#divisoria2 {
+  background-image: url('https://media.istockphoto.com/id/1077605220/pt/foto/fiber-optics-in-blue-close-up-with-ethernet-and-keyboard-background-warm-lens-flare.jpg?s=612x612&w=0&k=20&c=6bq7Cn14FFucFV6QnZxLI9Ni4LCXJdNZoAJRtdzmRF4=');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 900px;
+  background-color: (0,0,0,5);
+ }
+
+p#informativo {
+  color: white;
+  text-align: center;
+}
+
+.imagens4 {
+  padding:0px 0px 0px 15px;
+}
+
+h1#planosflexiveis {
+text-align: center;
+color:  rgba(5, 125, 223, 0.878);
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+padding: 75px 0px 50px 0px;
+}
+
+.informativo5 {
+color: black;
+padding: 20px 0px 0px 0px ;
+font-weight: bold;
+}
+
+h1#orcamento {
+  display: flex;
+  justify-content: center;
+  color:  rgba(251, 251, 251, 0.878);
+  font-size: 40px;
+  font-weight: bold;
+  font-family: 'Times New Roman', Times, serif;
+  padding: 50px 0px 20px 25px; 
+} 
+
+.tabelaCadastro {
+display: flex;
+justify-content: center;
+padding: 65px 0px 0px 0px;
+}
+
+.colunas-tabelaCadastro {
+padding: 20px;
+
+}
+
+input#l1 {
+width: 350px;
+height: 35px;
+border: 5px;
+border-radius: 7%;
+text-align: center;
+font-weight: bold;
+}
+
+input#l2 {
+width: 350px;
+height: 35px;
+border: 5px;
+border-radius: 7%;
+text-align: center;
+font-weight: bold;
+}
+
+input#l3 {
+width: 350px;
+height: 35px;
+border: 5px;
+border-radius: 7%;
+text-align: center;
+font-weight: bold;
+}
+
+input#l4 {
+width: 350px;
+height: 35px;
+border: 5px;
+border-radius: 7%;
+text-align: center;
+font-weight: bold;
+}
+
+textarea#mensagem {
+width: 400px;
+height: 200px;
+border-radius: 7%;
+text-align: center;
+font-weight: bold;
+text-align: center;
+}
+
+tr#espaco-botao2 {
+display: flex;
+justify-content: center;
+}
+
+button#botao2 {
+width: 400px;
+height: 60px;
+}
+
+section#divisoria3 {
+height: 750px;
+background: linear-gradient(to top,rgba(255, 255, 255, 0.2), rgba(0, 183, 255, 1));
+}
+
+@keyframes fade-in {
+0% {
+  opacity: 0;
+}
+100% {
+  opacity: 1;
+}
+}
+
+@keyframes fade-in-vertical {
+0% {
+  opacity: 0;
+  transform: translateY(50px);
+}
+100% {
+  opacity: 1;
+  transform: translateY(0);
+}
+}
+
+.elemento {
+opacity: 0;
+}
+
+.animado {
+animation: fade-in-vertical 1s ease-in-out forwards;
+}
+
+.elemento {
+opacity: 0;
+}
+
+.animado {
+animation: slide-in 1s ease-in-out forwards;
+}
+
+.elemento {
+animation: animal-animation 2s ease-in-out infinite;
+}
+
+.elemento {
+transition: transform 0.3s ease;
+}
+
+.elemento:hover {
+animation: lift-up 0.6s ease-in-out infinite;
+}
+
+.elemento {
+opacity: 0;
+}
+
+.animado {
+animation: fade-in-vertical 1s ease-in-out forwards;
+}
+
+.elemento {
+opacity: 0;
+animation: fade-in 1s ease-in-out forwards;
+}
+
+section#divisoria4 {
+background-image: url('https://img.freepik.com/fotos-premium/o-switch-de-rede-e-o-cabo-ethernet-se-conectam-ao-sistema-do-computador_51126-395.jpg');
+background-size: cover;
+background-repeat: no-repeat;
+height: 800px;
+}
+
+div#tabela1 {
+padding: 0px 20px 0px 20px;
+color:  rgba(5, 125, 223, 0.878);
+font-weight: bold;
+}
+
+div#tabela2 {
+padding: 0px 20px 0px 20px;
+color:  rgba(5, 125, 223, 0.878);
+font-weight: bold;
+border-color: white;
+}
+
+div#tabela3 {
+padding: 0px 20px 0px 20px;
+color:  rgba(5, 125, 223, 0.878);
+font-weight: bold;
+}
+
+tr#espaco-botao3 {
+display: flex;
+justify-content: center;
+padding: 20px 10px 20px 10px;
+}
+
+h1#planoflexivel {
+color:white;
+padding: 75px 0px 75px 0px;
+text-align: center;
+font-weight: bold;
+font-family: 'Times New Roman', Times, serif;
+}
+
+.preco-plano {
+font-size: 35px;
+font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-weight: normal;
+text-align: center;
+padding: 20px 0px 20px 0px;
+}
+
+.descricao-plano {
+text-align: center;
+padding: 25px;
+
+}
+li a.links-iniciais {
+  color: black; /* Cor padrão do texto do link */
+  text-decoration: none; /* Remove sublinhado padrão */
+  position: relative; /* Para permitir posicionamento de elementos filhos */
+}
+
+/* Estilos para a animação de surgimento */
+li a.links-iniciais::before {
+  content: ''; /* Adiciona um elemento vazio antes do conteúdo do link */
+  position: absolute;
+  width: 100%;
+  height: 2px; /* Altura da linha de animação */
+  bottom: 0;
+  left: 0;
+  background-color: rgb(58, 165, 198); /* Cor da animação */
+  transform: scaleX(0); /* Inicialmente a linha está escondida */
+  transform-origin: left;
+  transition: transform 0.3s ease; /* Transição suave */
+}
+
+/* Quando o cursor está sobre o link, a animação é acionada */
+li a.links-iniciais:hover::before {
+  transform: scaleX(1); /* A linha de animação cresce */
+}
+
+button#botao-plano {
+text-align: center;
+font-size: 18px;
+font-weight: bold;
+
+}
+
+td#planosflexiveis {
+padding: 0px 120px 0px 150px ;
+font-size: 20px;
+font-weight: bold;
+}
+
+.carousel-item img {
+max-height: 400px;
+width: auto;
+margin: 0 auto;
+}
+
+.carousel-container {
+display: flex;
+justify-content: center;
+align-items: center;
+height: 100vh;
+}
+
+div#tamanho-imagem-carrossel {
+width: 780px;
+}
+
+div#titulo {
+display: flex;
+justify-content: center;
+}
+
+td#titulo {
+color: rgba(5, 125, 223, 0.878);
+padding: 40px 95px 40px 95px;
+font-weight: bold;
+font-size: 20px;
+}
+
+tr#links-finais {
+font-weight: bold;
+color: black;
+font-weight: bold;
+
+}
+div#final {
+text-align: center;
+}
+
+
+section#divisoria5 {
+height: 300px;
+background-color: white;
+font-family: 'Times New Roman', Times, serif;
+}
+
+div#titulo {
+display: flex;
+justify-content: center;
+}
+td#titulo {
+color: rgba(5, 125, 223, 0.878);
+padding: 40px 55px 40px 60px;
+font-weight: bold;
+font-size: 30px;
+
+}
+tr#links-finais {
+font-weight: bold;
+color: black;
+font-weight: bold;
+}
+
+.container-final {
+margin: 0 auto;
+padding: 15px 0px 20px 0px;
+text-align: center;
+display: flex;
+justify-content: center;
+background: linear-gradient(to top, rgba(0, 183, 255, 1), rgba(255, 255, 255, 0.2));
+
+}
+
+.texto6 {
+padding: 7px;
+font-size: 20px;
+}
+
+
+.links-finais {
+font-weight: bold;
+color: black;
+font-weight: bold;
+padding: 0px 0px 0px 150px;
+}
+
+section#divisoria33 {
+height: 2000px;
+background: linear-gradient(to top,rgba(255, 255, 255, 0.2), rgba(0, 183, 255, 1));
+}
+
+section#divisoria32 {
+background-image: url('https://r4you.co/wp-content/uploads/imagens/Internet%20vs%20TV-scaled.jpg');
+background-size: cover;
+background-repeat: no-repeat;
+height: 800px;
+
+}
+
+section#redes-sociais {
+height: 250px;
+}
+.campo-icones {
+padding: 200px 0px 0px 0px;
+display: flex;
+justify-content: center;
+}
+
+.espacamento-icones {
+padding: 0px 50px 0px 50px
+}
+
+li a.links-iniciais {
+color: black; /* Cor padrão do texto do link */
+text-decoration: none; /* Remove sublinhado padrão */
+position: relative; /* Para permitir posicionamento de elementos filhos */
+}
+
+/* Estilos para a animação de surgimento */
+li a.links-iniciais::before {
+content: ''; /* Adiciona um elemento vazio antes do conteúdo do link */
+position: absolute;
+width: 100%;
+height: 2px; /* Altura da linha de animação */
+bottom: 0;
+left: 0;
+background-color: rgb(58, 165, 198); /* Cor da animação */
+transform: scaleX(0); /* Inicialmente a linha está escondida */
+transform-origin: left;
+transition: transform 0.3s ease; /* Transição suave */
+}
+
+/* Quando o cursor está sobre o link, a animação é acionada */
+li a.links-iniciais:hover::before {
+transform: scaleX(1); /* A linha de animação cresce */
+}
+
+.body3 {
+  background: linear-gradient(to top, rgba(0, 183, 255, 1), rgba(255, 255, 255, 0.2));
+  height: 400px;
+}
+.body4 {
+  background: linear-gradient(to top, rgba(255, 255, 255, 0.2), rgba(0, 183, 255, 1));
+  height: 300px;
+}
+
+.campo-titulo {
+  display: flex;
+  justify-content: center;
+}
+
+.titulo {
+  color:rgb(10, 83, 179); 
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  font-weight: bold;
+  text-align: center;
+  padding: 20px 0px 0px 0px;
+  font-size: 40px;
+}
+
+.nome-planoeconomico {
+  font-size: 35px;
+  padding: 25px 0px 15px 0px;
+  font-weight: bold;
+}
+
+.caracteristica-planoeconomico {
+  font-size: 20px;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.preco-planoeconomico {
+  font-size: 23px;
+  padding: 15px 0px 10px 0px;
+  font-weight: bold;
+}
+.campo-botao {
+  padding: 0px 0px 40px 0px;
+}
+
+.campo-compra-plano {
+padding: 100px;
+
+}
+
+.tabela-localizacao {
+padding: 50px 50px 50px 50px;
+}
+
+.CARALHO {
+  display: flex;
+  justify-content: center;
+  padding: 150px 0px 0px 0px;
+  }
+
+.caixas-entradas {
+  width: 330px;
+  height: 35px;
+  border-radius: 7%;
+  text-align: center;
+  font-weight: bold;
+}
+
+.coluna-campo-plano {
+  padding: 10px 5px 10px 5px ;
+}
+
+.coluna2 {
+  padding: 40px 5px 40px 5px;
+}
+
+.selecoes {
+  width: 330px;
+  height: 35px;
+  border-radius: 7%;
+  text-align: center;
+  font-weight: bold;
+}
+
+.links-planos {
+  font-size: 20px;
+  padding: 0px 0px 0px 40px;
+  color: black;
+  font-weight: bold;
+  text-align: center;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.links-equipamentos {
+  font-size: 20px;
+  padding: 0px 0px 0px 6px;
+  color: black;
+  font-weight: bold;
+  text-align: center;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+button#botoes {
+  width: 330px;
+  height: 60px;
+  font-weight: bold;
+}
+
+.links-cadastro {
+  font-size: 20px;
+  padding: 0px 0px 0px 100px;
+  color: black;
+  font-weight: bold;
+  text-align: center;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.cpf {
+  font-weight: bold;
+  text-align: center;
+  font-size: 18px;
+  padding: 10px 0px 0px 0px ;
+}
+
+button#solicitar-instalacao {
+  
+}
+
+button#cancelar {
+      height: 50px;
+      width: 335px;
+      font-weight: bold;
+  }
+button#solicitar-instalacao {
+      height: 50px;
+      width: 335px;
+      font-weight: bold;
+  }

@@ -1,0 +1,175 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+  .divisoria {
+      height: 30px;
+      background-color:white ;
+      display: flex;
+      justify-content: end;
+      padding: 4px 20px 0px 0px;
+  }
+  
+  .linksiniciais0 {
+      padding: 0px 10px 0px 0px;
+      color: rgb(58, 165, 198);
+      text-align: end
+  }
+  .linksiniciais05 {
+      padding: 0px 10px 0px 0px;
+  }
+  
+  .divisoria1 {
+      background-image: url(https://www.mediapost.com.br/assets/uploads/2019/04/lista-de-contatos-por-email-marketing.jpg);
+      background-size: cover;
+      background-repeat: no-repeat;
+      height: 600px;
+  }
+  
+  .imagem-logo {
+      padding: 30px 30px 5px 50px;
+  }
+  
+  section#divisoria5 {ecmrknet.edsonbpbr.repl.co
+      height: 300px;
+      background-color: white;
+  }
+  
+  div#titulo {
+      display: flex;
+      justify-content: center;
+    }
+
+  td#titulo {
+    color: rgba(5, 125, 223, 0.878);
+    padding: 40px 55px 40px 60px;
+    font-weight: bold;
+    font-size: 30px;
+   
+  }
+
+  tr#links-finais {
+    font-weight: bold;
+    color: black;
+    font-weight: bold;
+  }
+
+  div#final {
+    text-align: center;
+  }
+
+.container-final {
+
+    margin: 0 auto;
+    padding: 15px 0px 20px 0px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    background: linear-gradient(to top, rgba(0, 183, 255, 1), rgba(255, 255, 255, 0.2));
+
+}
+
+.texto6 {
+    padding: 7px;
+    font-size: 20px;
+  }
+
+  .links-finais {
+    font-weight: bold;
+    color: black;
+    font-weight: bold;
+    padding: 0px 0px 0px 150px;
+  }
+
+  .divisoria2 {
+    height: 900px;
+    background: linear-gradient(to top, rgba(255,255,255,0), rgba(0, 183, 255, 1));
+  }
+
+  .imagem-empresa {
+    height: 270px;
+    width: 530px;
+    padding: 0px 0px 0px 0px;
+    border-radius: 2%;
+  }
+  
+  u {
+    background-image: linear-gradient(to bottom, #00d0ff 0%, #1100ff 100%);
+    background-repeat: repeat-x;
+    background-position: 0 100%;
+    background-size: 100% 1px;
+    text-decoration: none;
+    background-size: 100% 3px;
+  }
+
+  .texto-empresa {
+    color: rgb(0, 0, 0);
+    padding: 0px 0px 20px 0px;
+    font-size: 30px;
+  }
+
+  .empresa {
+    padding: 250px 0px 50px 20px;
+  }
+
+  .coluna-texto {
+    padding: 0px 50px 0px 70px;
+  }
+
+  div#espacamento {
+    padding: 50px 65px 60px 0px ;
+  }
+
+  .texto-sobre {
+    font-size: 18px;
+    font-family:'Times New Roman', Times, serif ;
+  }
+
+  .imagem-esquerda {
+    height: 270px;
+    width: 530px;
+    padding: 0px 50px 0px 70px;
+    border-radius: 2%;
+  }
+  .localizacao {
+    display: flex;
+    justify-content:start;
+    padding: 0px 1000px 0px 0px;
+    font-weight: bold;
+  }
+  .local {
+    padding: 0px 0px 0px 5px;
+    color: #00d0ff;
+    font-weight: bold;
+  }
+
+
+  div#titulo {
+    padding: 70px 0px 120px 0px;
+    paddin: 0px 0px 550px 0px;
+    font-family: 'Times';
+    font-size: 22px;
+  }
+
+
+    td#coluna1 {
+      paddin: 0px 50px 0px 150px;
+      font-weight: bold;
+      text-align: center
+   }
+      
+    .divisoria2 {
+      display: flex;
+      justify-content:center;
+    }
+
+    tr#linha1 {
+      paddin: 0px 500px 0px 500px;
+      font-size: 25px
+    }
+
+    .titulo {
+      padding: 0px 70px 0px 0px
+    }

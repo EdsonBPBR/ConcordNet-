@@ -1,0 +1,174 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.divisoria {
+    height: 30px;
+    background-color:white ;
+    display: flex;
+    justify-content: end;
+    padding: 4px 20px 0px 0px;
+}
+
+.linksiniciais0 {
+    padding: 0px 10px 0px 0px;
+    color: rgb(58, 165, 198);
+}
+.linksiniciais05 {
+    padding: 0px 10px 0px 0px;
+}
+
+.divisoria1 {
+    background-image: url(https://static.zoom.com.br/content/Image/2020/Entenda%20antes%20de%20comprar/Trocar%20o%20canal%20do%20roteador%20pode%20melhorar%20a%20conexao.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 700px;
+}
+
+.imagem-logo {
+    padding: 30px 30px 5px 50px;
+}
+
+section#divisoria5 {
+    height: 300px;
+    background-color: white;
+}
+
+div#titulo {
+    display: flex;
+    justify-content: center;
+  }
+
+  td#titulo {
+    color: rgba(5, 125, 223, 0.878);
+    padding: 40px 55px 40px 60px;
+    font-weight: bold;
+    font-size: 30px;
+   
+  }
+
+  tr#links-finais {
+    font-weight: bold;
+    color: black;
+    font-weight: bold;
+  }
+
+  div#final {
+    text-align: center;
+  }
+
+.container-final {
+
+    margin: 0 auto;
+    padding: 15px 0px 20px 0px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    background: linear-gradient(to top, rgba(0, 183, 255, 1), rgba(255, 255, 255, 0.2));
+
+}
+
+.texto6 {
+    padding: 7px;
+    font-size: 20px;
+  }
+
+  .links-finais {
+    font-weight: bold;
+    color: black;
+    font-weight: bold;
+    padding: 0px 0px 0px 150px;
+  }
+
+  .divisoria2 {
+    height: 2000px;
+    background: linear-gradient(to top, rgba(255,255,255,0), rgba(0, 183, 255, 1));
+  }
+
+  
+
+  .texto-empresa {
+    color: rgb(0, 0, 0);
+    padding: 0px 0px 20px 0px;
+    font-size: 30px;
+  }
+
+  .empresa {
+    padding: 250px 0px 50px 20px;
+  }
+
+  .coluna-texto {
+    padding: 0px 50px 0px 70px;
+  }
+
+  div#espacamento {
+    padding: 50px 65px 60px 0px ;
+  }
+
+  .texto-sobre {
+    font-size: 18px;
+    font-family:'Times New Roman', Times, serif ;
+  }
+
+  .imagem-esquerda {
+    height: 270px;
+    width: 530px;
+    padding: 0px 50px 0px 70px;
+    border-radius: 2%;
+  }
+  .localizacao {
+    display: flex;
+    justify-content:start;
+    padding: 0px 1000px 0px 0px;
+    font-weight: bold;
+  }
+  .local {
+    padding: 0px 0px 0px 5px;
+    color: #00d0ff;
+    font-weight: bold;
+  }
+
+.roteadores {
+    display: flex;
+    justify-content: center;
+}
+
+.titulo-roteadores {
+    text-align: center;
+    padding: 100px 0px 50px 0px;
+    font-size: 35px;
+
+}
+.imagens-roteadores {
+    width: 150px;
+    height: 180px
+  }
+
+  .roteadores {
+    display: flex;
+    justify-content: center;
+    padding: 50px 0px 70px 0px
+  }
+
+  .campo1-roteadores {
+    padding: 0px 110px 0px 80px ;
+  }
+
+  .campo2-roteadores {
+    padding: 0px 100px 0px 80px ;
+  }
+
+  .campo3-roteadores {
+    padding: 0px 100px 0px 75px ;
+  }
+
+  .titulo-produto {
+    font-size: 35px;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    padding: 40px 0px 60px 0px;
+
+  }

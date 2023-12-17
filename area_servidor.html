@@ -1,0 +1,142 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ÁREA SERVIDOR - ECMRKNet </title>
+    <link rel="icon" type="image/x-icon" href="logo-guia.png">
+    <link rel="stylesheet" href="style-empresa.css">
+    <link rel="icon" type="image/x-icon" href="{% static 'imagens/logo-guia.png' %}">
+    <link rel="stylesheet" type="text/css" href="{% static 'style/style_area_cliente.css' %}">
+    <script type = 'text/javascript' src="{% static 'script/script_area_servidor.js' %}"></script>
+
+  <script>
+        function empresa() {
+          window.location.href = "/empresa/";
+        }
+        function login() {
+          window.location.href = "/login/";
+        }
+        function cadastro() {
+          window.location.href = "/cadastro/";
+        }
+        function index() {
+          window.location.href = "/";
+        }
+    
+  </script>
+  
+</head>
+<body>
+    
+    <section class="divisoria0">
+        <table>
+            <tr>
+                <td><a href="#" onclick = "index()"><img src="{% static 'imagens/logo-ecmrknet.png' %}" class = 'imagem-logo' alt="" title="LOGO-ECMRKNET"></a></td>
+                <td><h1 class="titulo-areacliente">ÁREA DO SERVIDOR</h1></td>
+            </tr>
+        </table>
+    </section>
+
+    <section class="divisoria001">
+        <div class="divisoria1">
+            <table>
+                <tr>
+                    <td class="links-iniciais">
+                        <a href="" onclick = "index()">Início</a>
+                    </td>
+                    <td class="links-iniciais">
+                        <a href="https://replit.com/@EdsonBPBR/ECMRKNET">Replit</a>
+                    </td>
+                    <td class="links-iniciais">
+                        <a href="">Backup banco de dados</a>
+                    </td>
+                    <td class="links-iniciais">
+                        <a href="">Mapa da rede</a>
+                    </td>
+                    <td class="links-iniciais">
+                        <a href="">Aplicar promoções</a>
+                    </td>
+                    <td class="links-iniciais">
+                        <a href="">Modificar planos</a>
+                    </td>
+                    <td class="links-iniciais">
+                        <a href="">Calendário</a>
+                    </td>
+                    <td class="links-iniciais">
+                        <a href="">Desativar Usuário</a>
+                    </td>
+                    <td class="links-iniciais">
+                        <a href="">Instalação de rede LAN</a>
+                    </td>
+                    <td class="links-iniciais">
+                        <a href="">Manutenção de rede LAN</a>
+                    </td>
+                    <td class="links-iniciais">
+                        <a href="">Verificar planos / equipamentos dos usuários</a>
+                    </td>
+                    <td class="links-iniciais">
+                        <a href="">Verificar a vida dos equipamentos</a>
+                    </td>
+                    <td class="links-iniciais">
+                        <a href="">Solicitações de Instalações / Compras</a>
+                    </td>
+                    <td class="links-iniciais">
+                        <a href="">Solicitações de Manutenção</a>
+                    </td>
+                    <td class="links-iniciais">
+                        <a href="">E-mail da instituição</a>
+                    </td>
+                    <td class="links-iniciais">
+                        <a href="">Desativar o sistema</a>
+                    </td>
+                    <td class="links-iniciais">
+                        <a href="">FeedBack dos Usuários</a>
+                    </td>
+                    <td class="links-iniciais">
+                        <a href="">Solicitações de orçamentos</a>
+                    </td>
+                   
+                </tr>
+            </table>
+        </div>
+        
+    </section>
+
+    <section class="divisoria2">
+       <table>
+        <div class="area-titulo">
+            <td class="perfil-cliente">
+                <div class="titulo-p1">
+                    <p class="boas-vindas"><img src="https://cdn-icons-png.flaticon.com/512/74/74472.png" alt="" class="imagem-titulo"> Olá, servidor!
+                       </p>
+                </div>
+      
+           
+            </td>
+
+        </div>
+        
+       </table>
+    </section>
+
+    <section>
+      <h1>Lista de Usuários</h1>
+      <ul>
+              <li>
+                  CPF: <br>
+                  Nome Completo: <br>
+                  Email: <br>
+                  Bairro: <br>
+                  Estado: <br>
+                  Telefone: <br>
+                  Cidade: <br>
+                  Número da Casa: <br>
+                  Senha de Cadastro: <br>
+              </li>
+      </ul>
+      </section>
+</body>
+</html> 

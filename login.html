@@ -1,0 +1,96 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - ECMRKNet</title>
+    <link rel="stylesheet" href="style-login.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+    <link rel="icon" type="image/x-icon" href="{% static 'imagens/logo-guia.png' %}">
+    <link rel="stylesheet" type="text/css" href="{% static 'style/style_login.css' %}">
+    <script type = 'text/javascript' src="{% static 'script/script_login.js' %}"></script>
+
+</head>
+<body class = 'body'>
+    {% if error_message %}
+    <script>
+        alert("{{ error_message }}");
+    </script>
+    {% endif %}
+
+    <section id="divisoria1">
+
+    </section>
+
+    <section>
+      <script>
+        function empresa() {
+          window.location.href = "/empresa/";
+        }
+        function login() {
+          window.location.href = "/login/";
+        }
+        function cadastro() {
+          window.location.href = "/cadastro/";
+        }
+        function index() {
+          window.location.href = "/";
+        }
+    
+      </script>
+        <div class="formulario">
+            <table border="0" class="tabela-cadastro">
+                <tr>
+                    <td >
+                        <a href="#" onclick = "index()" o><img src="{% static 'imagens/logo-ecmrknet.png' %}" alt="" class="imagem-login" onclick = "index()"></a>
+                    </td>
+                </tr>
+                <tr>
+                
+                </tr>
+              <form method = "post" action="{% url 'login' %}" class = 'formulario'>
+                {% csrf_token %}
+
+                  <tr>
+                    <td class="campo-entrada">
+                        <input type="text" name="cpf" class="entrada-cnpj" placeholder="CPF / CNPJ: XXX.XXX.XXX-XX" id="cpf-input">
+                    </td>
+                </tr>
+                <tr>
+            
+                </tr>
+                <tr>
+                    <td class="campo-entrada">
+                        <input type="password" name="senha" class="entrada-senha" placeholder="SENHA" >
+                    </td>
+                </tr>
+                <tr>
+                    <td class="campo-botao">
+                        <button id="botao-enviar" class="btn-primary btn-lg">ENTRAR</button>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="campo-link">
+                        <a class= 'link-cadastro' href="#" onclick = "cadastro()">CADASTRE-SE JÁ!</a>
+                    </td>
+                </tr>
+                
+              </form>
+                
+            </table>
+        
+        </div> 
+    </section>
+
+    <section id="divisoria2">
+
+    </section>
+
+    
+</body>
+</html>

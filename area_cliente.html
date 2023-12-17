@@ -1,0 +1,279 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ÁREA CLIENTE - ECMRKNet </title>
+    <link rel="icon" type="image/x-icon" href="logo-guia.png">
+    <link rel="stylesheet" href="style-empresa.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+    <link rel="icon" type="image/x-icon" href="{% static 'imagens/logo-guia.png' %}">
+    <link rel="stylesheet" type="text/css" href="{% static 'style/style_area_cliente.css' %}">
+    <script type = 'text/javascript' src="{% static 'script/script_area_cliente.js' %}"></script>
+
+
+</head>
+<body>
+    
+    <section class="divisoria0">
+        <table>
+            <tr>
+                <td><a href="#" onclick = "index()"><img src="{% static 'imagens/logo-ecmrknet.png' %}" class = 'imagem-logo' alt="" title="LOGO-ECMRKNET"></a></td>
+                <td><h1 class="titulo-areacliente">ÁREA DO CLIENTE</h1></td>
+            </tr>
+        </table>
+    </section>
+
+    <section class="divisoria001">
+        <div class="divisoria1">
+            <table>
+                <tr>
+                    <td class="links-iniciais">
+                        <a href="{% url 'index' %}" class="links-titulais" >Início</a>
+                    </td>
+                    <td class="links-iniciais">
+                        <a href="{% url 'planos' %}"  class="links-titulais" >Comprar Plano</a>
+                    </td>
+                    <td class="links-iniciais">
+                        <a href="{% url 'equipamento' %}" class="links-titulais" >Equipamentos</a>
+                    </td>
+                    <td class="links-iniciais">
+                        <a href="https://www.speedtest.net/pt" class="links-titulais">Teste velocidade</a>
+                    </td>
+                    <td class="links-iniciais">
+                        <a href="https://pt.wizcase.com/tools/whats-my-ip/?gclid=Cj0KCQjwuZGnBhD1ARIsACxbAVh9pL_aAE3WCHhSREX9bMY5fCrUICMzFX9OogSr80Js9EBawmqFLqQaArx1EALw_wcB" class="links-titulais">Meu IP</a>
+                    </td>
+                    <td class="links-iniciais">
+                        <a href="" class="links-titulais" onclick="index()">Relatar problema</a>
+                    </td>
+                    <td class="links-iniciais">
+                        <a href="{% url 'contato' %}" class="links-titulais" >Entrar em contato</a>
+                    </td>
+                    <td>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        
+      </section>
+  
+        <script>
+          function empresa() {
+            window.location.href = "/empresa/";
+          }
+          function login() {
+            window.location.href = "/login/";
+          }
+          function cadastro() {
+            window.location.href = "/cadastro/";
+          }
+          function contato() {
+            window.location.href =  "/contato/";
+          }
+          function index() {
+            window.location.href = "/";
+          }
+          function planos() {
+            window.location.href = "/planos/";
+          }
+         function login_servidor() {
+           window.location.href = '/login_servidor/'
+         }
+         function area_servidor() {
+           window.location.href = '/area_servidor/'
+           
+         }
+          
+        </script>
+
+    <section class="divisoria2">
+       <table>
+        <div class="area-titulo">
+            <td class="perfil-cliente">
+                <div class="titulo-p1">
+                    <p class="boas-vindas"><img src="https://cdn-icons-png.flaticon.com/512/74/74472.png" alt="" class="imagem-titulo"> Olá, 
+                       </p>
+                </div>
+                
+                <div class="caracteristicas-cliente">
+                    <p class="dadosPessoais">DADOS PESSOAIS</p>
+                    <ul>
+                        <li class="info"><strong>Nome:</strong> Italo Arrunda  </li>
+                        <li class="info"><strong>E-mail: </strong>italoarrunda@gmail.com </li>
+                        <li class="info"><strong>Telefone:</strong> 8299381898989</li>
+                        <li class="info"><strong>Cidade:</strong> Palmeira dos Índios </li>
+                        <li class="info"><strong>Estado:</strong> Alagoas</li>
+                        <li class="info"><strong>Bairro/Rua:</strong> Centro, Caboquinho</li>
+                        <li class="info"><strong>Nº Casa: </strong>669 </li>
+                        <li class="info"><strong>CPF:</strong> 123.456.789-11</li>
+                    </ul>
+                </div>
+        </div>
+        
+
+                
+                        <td>
+                            <div class="espacamento">
+                                <div class="roteador-instalado">
+                                    <div class="titulo-roteador-instalado">
+                                        <p class="titulo-caracteristica">ROTEADOR / INSTALAÇÃO</p>
+                                         <ul>
+                                           <li class = "info-roteador">Código do aparelho: </li> 
+                                           <li class = "info-roteador">Nome do aparelho: </li>
+                                           <li class = "info-roteador">Equipamento conversor:</li>
+                                           <li class = "info-roteador">Enlace da rede: </li>
+                                           <li class = "info-roteador">Data de instalação da rede:</li>
+                                           <li class = "info-roteador">Observação: </li>
+                                           <li class = "info-roteador"><a href="">Solicitar outro roteador</a></li>
+                                         </ul>
+                                    </div>
+                                   
+                                </div>    
+                            </div>
+                            <div class="espacamento">
+                                <div class="plano-adquirido">
+                                    <div class="titulo-plano-adquirido">
+                                        <p class="titulo-caracteristica">PLANO / SERVIÇO</p>
+                                          <ul>
+                                           <li class = "info-plano-servico">Plano assinado: </li> 
+                                           <li class = "info-plano-servico">Característica do plano: </li>
+                                           <li class = "info-plano-servico">Última manutenção:</li>
+                                           <li class = "info-plano-servico">Observação: </li>
+                                           <li class = "info-plano-servico"><a href="">Assinar outro plano</a></li>
+                                           
+                                         </ul>
+                                    </div>
+
+                                </div>
+                            </div>
+                            
+                        </td>
+                        
+                        <td>
+                            <div class="espacamento">
+                                <div class="pagamentos">
+                                    <div class="titulo-pagamentos">
+                                        <p class="titulo-caracteristica">PAGAMENTOS</p>
+                                         <ul>
+                                             <li class = "info-plano-servico">Valor do plano adquirido: </li> 
+                                             <li class = "info-plano-servico">Valor do pagamento mensal: </li>
+                                             <li class = "info-plano-servico">Observação: </li>
+                                             <li class = "info-plano-servico">Pagamentos atrasados:</li>
+                                             <li><label for="" class = "info-plano-servico">Anexe o comprovante de pagamento:</label></li>
+                                             <li class = "info-plano-servico"><a href=""><input type="file" name="nomeDoArquivo"></a></li>
+                                             <li class = "info-plano-servico"><a href="">Efetuar pagamento</a></li>
+                                          </ul>
+                                    </div>
+                                    
+                                </div>
+                            </div>
+                            
+                            <div class="espacamento">
+                                <div class="mensagens">
+                                    <div class="titulo-mensagens">
+                                        <p class="titulo-caracteristica">MENSAGENS</p>
+                                          <div class = 'formulario-mensagens'>
+                                            <table>
+                                              <tr>
+                                                <td>
+                                                    <textarea class = 'mensagem'> </textarea>
+                                                </td>
+                                                <td>
+                                                    <button id = 'botao-enviar' class="btn-primary btn-sm">Enviar</button>
+                                                </td>
+                                         
+                                              </tr>
+                                            </table>
+                                          </div>
+                                    </div>
+                                    
+                                </div>
+                            </div>
+                            
+                        </td>
+                </div>
+       </table>
+    </section>
+
+
+    
+              
+    
+      <section id="divisoria5">
+        <div id="titulo">
+            <table>
+                <tr id="titulo">
+                    <td id="titulo">
+                        MENU
+                    </td>
+                    <td id="titulo">
+                        PLANOS
+                    </td>
+                    <td id="titulo">
+                        CONTATO
+                    </td>
+                    <td id="titulo">
+                        DESENVOLVEDORES
+                    </td>
+                </tr>
+                <div id="final">
+                    <tr id="links-finais">
+                        <td>INÍCIO</td>
+                        <td>PARA VOCÊ</td>
+                        <td>(82) 2601-9878</td>
+                        <td>EDSON BARROS PONCIÚNCULA</td>
+                    </tr>
+                    <tr id="links-finais">
+                        <td>EMPRESA</td>
+                        <td>PARA EMPRESA</td>
+                        <td>contato@ecmrk.net.com</td>
+                        <td>MARIA RAISSA BEATRIZ CORDEIRO DA SILVA</td>
+                    </tr>
+                    <tr id="links-finais">
+                        <td>PLANOS</td>
+                        <td>PARA COORPORAÇÕES</td>
+                        <td>(82) 9 9825-9878 - FINANCEIRO</td>
+                        <td>CLAUDIA ANTONIETA DA COSTA SILVA</td>
+                    </tr>
+                    <tr id="links-finais">
+                        <td>FALE CONOSCO</td>
+                        <td></td>
+                        <td>(82) 9 9365-9178 - SUPORTE</td>
+                        <td>MILLENY OLIVEIRA DA SILVA</td>
+                    </tr>
+                    <tr>
+                        <tr id="links-finais">
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td>KALLYNE FERRO VEIGA</td>
+                        </tr>
+                    </tr>
+                </div>
+                
+            </table>
+        </div>
+        
+    
+      </section>
+    
+    
+    
+      <section class="container-final">
+        <div>
+            <p>CNPJ: 123.456.789-10</p>
+            <p>Endereço: Vila Maria, 240 - Palmeira dos Índios, Alagoas</p>
+            <p>Todos os direitos reservados &copy;2023   <strong>ECMRKNet</strong> </p>
+          </div>
+      </section>
+        
+      
+    </body>
+    </html>
+</body>
+</html>

@@ -1,0 +1,579 @@
+.body {
+    background-image: url(https://media.tenor.com/C9yxFcjG0OsAAAAd/world-connected-planet.gif);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.formulario {
+    display: flex;
+    justify-content: center;
+}
+
+section#divisoria1 {
+    height: 200px;
+}
+
+section#divisoria2 {
+    height: 200px;
+}
+
+.imagem-login {
+    height: 220px;
+    width: 480px;
+    padding: 0px 0px 80px 0px;
+}
+
+.login-campocpf {
+    color: white;
+    font-family:'Times New Roman';
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    padding: 5px 0px 15px 0px;
+}
+
+.tabela-cadastro {
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.formulario {
+    display: flex;
+    justify-content: center;
+}
+
+section#divisoria1 {
+    height: 200px;
+}
+
+section#divisoria2 {
+    height: 200px;
+}
+
+.imagem-login {
+    height: 220px;
+    width: 480px;
+    padding: 0px 0px 80px 0px;
+}
+
+.login-campocpf {
+    color: white;
+    font-family:'Times New Roman';
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    padding: 5px 0px 15px 0px;
+}
+
+.tabela-cadastro {
+    border-color: white;
+}
+
+.campo-entrada {
+    padding: 0px 20px 11px 70px;
+}
+
+.entrada-cnpj {
+    height: 30px;
+    width: 350px;
+    border-radius: 2%;
+    padding: 2px;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    font-family:'Times New Roman';
+}
+
+.entrada-senha {
+    height: 30px;
+    width: 350px;
+    border-radius: 2%;
+    padding: 2px;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    font-family:'Times New Roman';
+}
+
+.campo-botao {
+    padding: 20px 0px 0px 157px;
+}
+.body {
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.formulario {
+    display: flex;
+    justify-content: center;
+}
+
+section#divisoria1 {
+    height: 200px;
+}
+
+section#divisoria2 {
+    height: 200px;
+}
+
+.imagem-login {
+    height: 220px;
+    width: 480px;
+    padding: 0px 0px 80px 0px;
+}
+
+.login-campocpf {
+    color: white;
+    font-family:'Times New Roman';
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    padding: 5px 0px 15px 0px;
+}
+
+.tabela-cadastro {
+    border-color: white;
+}
+
+.campo-entrada {
+    padding: 0px 20px 11px 70px;
+}
+
+.entrada-cnpj {
+    height: 30px;
+    width: 350px;
+    border-radius: 2%;
+    padding: 2px;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    font-family:'Times New Roman';
+}
+
+.entrada-senha {
+    height: 30px;
+    width: 350px;
+    border-radius: 2%;
+    padding: 2px;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    font-family:'Times New Roman';
+}
+
+.campo-botao {
+    padding: 20px 0px 0px 157px;
+}
+
+button#botao-enviar {
+    height: 50px;
+    width: 170px;        
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.formulario {
+    display: flex;
+    justify-content: center;
+}
+
+section#divisoria1 {
+    height: 200px;
+}
+
+section#divisoria2 {
+    height: 200px;
+}
+
+.imagem-login {
+    height: 220px;
+    width: 480px;
+    padding: 0px 0px 80px 0px;
+}
+
+.login-campocpf {
+    color: white;
+    font-family:'Times New Roman';
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    padding: 5px 0px 15px 0px;
+}
+
+.tabela-cadastro {
+    border-color: white;
+}
+
+.campo-entrada {
+    padding: 0px 20px 11px 70px;
+}
+
+.entrada-cnpj {
+    height: 30px;
+    width: 350px;
+    border-radius: 2%;
+    padding: 2px;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    font-family:'Times New Roman';
+}
+
+.entrada-senha {
+    height: 30px;
+    width: 350px;
+    border-radius: 2%;
+    padding: 2px;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    font-family:'Times New Roman';
+}
+
+.campo-botao {
+    padding: 20px 0px 0px 157px;
+}
+
+button#botao-enviar {
+    height: 50px;
+    width: 170px;        
+}
+
+.campo-link {
+    text-align: center;
+    padding: 45px 0px 0px 0px ;
+}
+
+.link-cadastro {
+    font-size: 17px;
+    font-family: 'Times new';
+    text-align: center;
+    font-weight: bold;
+    color: white;
+}
+
+
+.campo-link {
+    text-align: center;
+    padding: 45px 0px 0px 0px ;
+}
+
+.link-cadastro {
+    font-size: 17px;
+    font-family: 'Times new';
+    text-align: center;
+    font-weight: bold;
+    color: white;
+}
+
+button#botao-enviar {
+    height: 50px;
+    width: 170px;        
+}
+
+.campo-link {
+    text-align: center;
+    padding: 45px 0px 0px 0px ;
+}
+
+.link-cadastro {
+    font-size: 17px;
+    font-family: 'Times new';
+    text-align: center;
+    font-weight: bold;
+    color: white;
+}
+
+.campo-entrada {
+    padding: 0px 20px 11px 70px;
+}
+
+.entrada-cnpj {
+    height: 30px;
+    width: 350px;
+    border-radius: 2%;
+    padding: 2px;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    font-family:'Times New Roman';
+}
+
+.entrada-senha {
+    height: 30px;
+    width: 350px;
+    border-radius: 2%;
+    padding: 2px;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    font-family:'Times New Roman';
+}
+
+.campo-botao {
+    padding: 20px 0px 0px 157px; }
+
+.formulario {
+    display: flex;
+    justify-content: center;
+}
+
+section#divisoria1 {
+    height: 200px;
+}
+
+section#divisoria2 {
+    height: 200px;
+}
+
+.imagem-login {
+    height: 220px;
+    width: 480px;
+    padding: 0px 0px 80px 0px;
+}
+
+.login-campocpf {
+    color: white;
+    font-family:'Times New Roman';
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    padding: 5px 0px 15px 0px;
+}
+
+.tabela-cadastro {
+    border-color: white;
+}
+
+.campo-entrada {
+    padding: 0px 20px 11px 70px;
+}
+
+.entrada-cnpj {
+    height: 30px;
+    width: 350px;
+    border-radius: 2%;
+    padding: 2px;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.formulario {
+    display: flex;
+    justify-content: center;
+}
+
+section#divisoria1 {
+    height: 200px;
+}
+
+section#divisoria2 {
+    height: 200px;
+}
+
+.imagem-login {
+    height: 220px;
+    width: 480px;
+    padding: 0px 0px 80px 0px;
+}
+
+.login-campocpf {
+    color: white;
+    font-family:'Times New Roman';
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    padding: 5px 0px 15px 0px;
+}
+
+.tabela-cadastro {
+    border-color: white;
+}
+
+.campo-entrada {
+    padding: 0px 20px 11px 70px;
+}
+
+.entrada-cnpj {
+    height: 30px;
+    width: 350px;
+    border-radius: 2%;
+    padding: 2px;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    font-family:'Times New Roman';
+}
+
+.entrada-senha {
+    height: 30px;
+    width: 350px;
+    border-radius: 2%;
+    padding: 2px;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    font-family:'Times New Roman';
+}
+
+.campo-botao {
+    padding: 20px 0px 0px 157px;
+}
+
+button#botao-enviar {
+    height: 50px;
+    width: 170px;        
+}
+
+.campo-link {
+    text-align: center;
+    padding: 45px 0px 0px 0px ;
+}
+
+.link-cadastro {
+    font-size: 17px;
+    font-family: 'Times new';
+    text-align: center;
+    font-weight: bold;
+    color: white;
+}
+
+
+.entrada-senha {
+    height: 30px;
+    width: 350px;
+    border-radius: 2%;
+    padding: 2px;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    font-family:'Times New Roman';
+}
+
+.campo-botao {
+    padding: 20px 0px 0px 157px;
+}
+
+button#botao-enviar {
+    height: 50px;
+    width: 170px;        
+}
+
+.campo-link {
+    text-align: center;
+    padding: 45px 0px 0px 0px ;
+}
+
+.link-cadastro {
+    font-size: 17px;
+    font-family: 'Times new';
+    text-align: center;
+    font-weight: bold;
+    color: white;
+}
+
+button#botao-enviar {
+    height: 50px;
+    width: 170px;        
+}
+
+.campo-link {
+    text-align: center;
+    padding: 45px 0px 0px 0px ;
+}
+
+.link-cadastro {
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.formulario {
+    display: flex;
+    justify-content: center;
+}
+
+section#divisoria1 {
+    height: 200px;
+}
+
+section#divisoria2 {
+    height: 200px;
+}
+
+.imagem-login {
+    height: 220px;
+    width: 480px;
+    padding: 0px 0px 80px 0px;
+}
+
+.login-campocpf {
+    color: white;
+    font-family:'Times New Roman';
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    padding: 5px 0px 15px 0px;
+}
+
+.tabela-cadastro {
+    border-color: white;
+}
+
+.campo-entrada {
+    padding: 0px 20px 11px 70px;
+}
+
+.entrada-cnpj {
+    height: 30px;
+    width: 350px;
+    border-radius: 2%;
+    padding: 2px;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    font-family:'Times New Roman';
+}
+
+.entrada-senha {
+    height: 30px;
+    width: 350px;
+    border-radius: 2%;
+    padding: 2px;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    font-family:'Times New Roman';
+}
+
+.campo-botao {
+    padding: 20px 0px 0px 157px;
+}
+
+button#botao-enviar {
+    height: 50px;
+    width: 170px;        
+}
+
+.campo-link {
+    text-align: center;
+    padding: 45px 0px 0px 0px ;
+}
+
+.link-cadastro {
+    font-size: 17px;
+    font-family: 'Times new';
+    text-align: center;
+    font-weight: bold;
+    color: white;
+}
+
+.sla {
+    font-size: 17px;
+    font-family: 'Times new';
+    text-align: center;
+    font-weight: bold;
+    color: white;
+}

@@ -1,0 +1,128 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro - ECMRKNet</title>
+    <link rel="stylesheet" href="style-cadastro.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+    <link rel="icon" type="image/x-icon" href="{% static 'imagens/logo-guia.png' %}">
+    <link rel="stylesheet" type="text/css" href="{% static 'style/style_cadastro.css' %}">
+  
+   
+</head>
+
+<body class="body">
+    
+    <section class="divisoria1">
+        <table>
+            <tr>
+                <td>
+                    <a href="#"><img onclick = "index()" src="{% static 'imagens/logo-ecmrknet.png' %}" alt="" class="imagem-login"></a>
+                </td>
+                <td class="campo-texto1">
+                    <h1 id="texto1">CADASTRE-SE JÁ!</h1>
+                    <div id="cadastro-alert" class="alert-success" style="display: none;"></div>
+                </td>
+            </tr>
+
+        </table>
+    </section>
+    
+    <section>
+    <div class="formulario">
+       <form method="post" action="{% url 'cadastrar_usuario' %}">
+    {% csrf_token %}
+     <table>
+                <tr>
+                    <td class="espaco-coluna1">
+                        <input type="text" name="nome_completo" class="entrada-nome" placeholder="NOME COMPLETO">
+                    </td>
+                    <td class="espaco-coluna1">
+                        <input type="text" name="telefone" class="entrada-telefone" placeholder="TELEFONE">
+                    </td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td class="espaco-coluna1">
+                        <input type="text" name="email" class="entrada-email" placeholder="EMAIL">
+                    </td>
+                    <td class="espaco-coluna1">
+                        <input type="text" name="cidade" class="entrada-cidade" placeholder="CIDADE">
+                    </td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td class="espaco-coluna1">
+                        <input type="text" name="bairro" class="entrada-bairro" placeholder="BAIRRO/RUA">
+                    </td>
+                    <td class="espaco-coluna1">
+                        <input type="text" name="numero_casa" class="entrada-n_casa" placeholder="Nº CASA">
+                    </td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td class="espaco-coluna1">
+                        <input type="text" name="estado" class="entrada-estado" placeholder="ESTADO">
+                    </td>
+                    <td class="espaco-coluna1">
+                        <input type="text" name="cpf" class="entrada-cpf" placeholder="CPF / CNPJ: XXX.XXX.XXX-XX">
+                    </td>
+                    <td class="imagem-pergunta"> <img src="https://cdn-icons-png.flaticon.com/512/18/18436.png" alt="CPF?" title="Porque eu devo informar meu cpf? É necessário que você informe seu CPF, pois é a partir dele que diferencia os usuários no nosso banco de dados, já que é único para cada cliente." style="height: 20px; width: 22px;"></td>
+                </tr>
+
+                <tr class="password-conteiner">
+                    <td class="espaco-coluna1"> 
+                        <input type="password" id="passwordField" name="senha_cadastro" placeholder="SENHA CADASTRO" class="entrada-senhacadastro">
+                    </td>
+                </tr>
+
+                <tr>
+                    <td class="campo-botaoes">
+                        <button class="btn btn-lg btn-primary btn-block" id="enviar" type="submit">CADASTRAR</button>
+                    </td>
+                    <td class="campo-botaoes">
+                        <button class="btn btn-lg btn-danger btn-block" id="limpar" type="reset">LIMPAR</button>
+                    </td>
+                </tr>
+            </table>
+          <div id = 'cadastro-alert' style = "display: nome;"></div>
+    
+</form>
+    </div>
+</section>
+
+
+    <section class="divisoria2">
+        <script>
+          //CHAMAR AS PÁGINAS QUANDOS OS LINKS SÃO ACIONADOS:
+            function empresa() {
+              window.location.href = "/empresa/";
+            }
+            function login() {
+              window.location.href = "/login/";
+            }
+            function cadastro() {
+              window.location.href = "/cadastro/";
+            }
+            function index() {
+              window.location.href = "/";
+            }
+        </script>
+        <table>
+            <tr>
+                <td><a href="#" class="realizar-login" onclick = "login()">REALIZAR LOGIN</a></td>
+            </tr>
+        </table>
+    </section>
+   
+    
+
+    
+</body>
+</html>

@@ -1,0 +1,36 @@
+{
+  "files": {
+    "django_project/settings.py": [
+      {
+        "id": "4cc8c165-21f8-4fb6-88e5-a677a2a5e86a",
+        "line": 129,
+        "version": 244,
+        "index": 3366
+      }
+    ],
+    "django_project/static/style/style_planos.css": [
+      {
+        "id": "ac3eb332-1787-447a-affe-52e531a1947a",
+        "line": 1,
+        "version": 353,
+        "index": 0
+      }
+    ],
+    "galeria/views.py": [
+      {
+        "id": "4405a20f-739b-4a59-9f44-231c21276c4b",
+        "line": 184,
+        "version": 7166,
+        "index": 6192
+      }
+    ],
+    "templates/galeria/area_cliente.html": [
+      {
+        "id": "d9178196-6b82-4b2a-bf46-83dfcce4568e",
+        "line": 1,
+        "version": 2431,
+        "index": 0
+      }
+    ]
+  }
+}

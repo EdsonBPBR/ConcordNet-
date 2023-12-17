@@ -1,0 +1,497 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+  <link rel="icon" type="image/x-icon" href="{% static 'imagens/logo-guia.png' %}">
+  <link rel="stylesheet" type="text/css" href="{% static 'style/style_index.css' %}">
+
+  <script>
+    function handleIntersection(entries, observer) {
+    entries.forEach(entry => {
+    if (entry.isIntersecting) {
+      entry.target.classList.add('animado');
+      observer.unobserve(entry.target);
+    }
+    });
+    }
+
+    const elementos = document.querySelectorAll('.elemento');
+    const observer = new IntersectionObserver(handleIntersection, {
+    rootMargin: '0px',
+    threshold: 0.5
+    });
+
+    elementos.forEach(elemento => {
+    observer.observe(elemento);
+    });
+
+  </script>
+  <script>
+    //SISTEMA DE MENSAGEM QUANDO O USUÁRIO REALIZA O COMENTÁRIO
+    {% if messages %}
+        {% for message in messages %}
+            alert("{{ message }}");
+        {% endfor %}
+    {% endif %}
+</script>
+
+  <title>ConcordNet</title>
+  
+</head>
+<body>
+    <section class="divisoria">
+        <img src="https://cdn-icons-png.flaticon.com/512/696/696975.png" alt="" style="width: 20px; height: 20px; padding: 2px 2px 0px 0px;">
+        <a href="#" onclick = "cadastro()" class = 'linksiniciais0'> Cadastre-se  | </a>
+        <p class="linksiniciais0"><strong>Sou cliente</strong></p>
+        <a href="#" onclick = "login()" class="linksiniciais0">entrar</a>
+    </section>
+  <header class="body1">
+    <nav>
+        <table>
+            <tr>
+                <div class="container-inicial">
+                    <td>
+                        <div class="imagem-logo">
+                            <a href="#" onclick = "index()"><img src="{% static 'imagens/logo-ecmrknet.png' %}" src = "imagem-logo-ecmrknet.png" alt="" title="LOGO-ConcordNet"></a>
+                        </div>
+
+                    </td>
+                    <td>
+                        <div class="linksiniciais">
+                            <ul>
+                              <li><a class="links-iniciais" href="#" onclick="empresa()">Empresa</a></li>
+                              <li><a class="links-iniciais" href="#divisoria33" >Planos</a></li>
+                              <li><a class="links-iniciais" href="#" onclick="contato()">Contatos</a></li>
+                              <li><a class="links-iniciais" href="https://www.speedtest.net/pt">Teste Velocidade</a></li>
+                              <li><a class="links-iniciais" href="#" onclick="login()">Área do Cliente</a></li>
+                              <li><a class="links-iniciais" href="#" onclick="login_servidor()">Área do Servidor</a></li>
+                              </ul>
+                        </div>
+                    </td>
+                  </div>
+            </tr>
+        </table>
+
+        <section id="servicos" class="servicosSA">
+            <div>
+                <table class="contratar-inicial">
+                    <tr>
+                        <td>
+                            <h1 id="propaganda1" class="elemento">OBTERNHA SEU PLANO</h1>
+                        </td>
+                    </tr>
+                    <td>
+                        <img src="{% static 'imagens/pessoal.png' %}" alt="" class="propaganda2">
+                    </td>
+                    <tr>
+                        <td class="local-botao1">
+                            <button id="" class="btn-primary btn-lg" onclick = "planos()">ADQUIRIR</button>
+                        </td>
+                    </tr>
+                </table>
+        </section>
+    </nav>
+  </header>
+
+     <script>
+        function empresa() {
+          window.location.href = "/empresa/";
+        };
+        function login() {
+          window.location.href = "/login/";
+        };
+        function cadastro() {
+          window.location.href = "/cadastro/";
+        };
+        function contato() {
+          window.location.href =  "/contato/";
+        };
+        function index() {
+          window.location.href = "/";
+        };
+        function planos() {
+          window.location.href = "/planos/";
+        };
+       function login_servidor() {
+         window.location.href = '/login_servidor/';
+       };
+       function area_servidor() {
+         window.location.href = '/area_servidor/';
+       };
+       function equipamentos() {
+         windows.location.href = '/equipamento/';
+       };
+        
+      </script>
+  
+
+  
+  <section id="divisoria1">
+    <div>
+    <table style="display: flex; justify-content: center;">
+        <tr>
+            <td>
+                <h1 id="residencial" class="elemento">
+                    PLANOS RESIDÊNCIAIS
+                </h1>
+            </td>
+            <td>
+                <h1 id="corporativo" class="elemento">
+                    PLANOS CORPORATIVOS
+                </h1>
+            </td>
+            <td>
+                <h1 id="dedicado" class="elemento">
+                    PLANOS DEDICADOS
+                </h1>
+            </td>
+        </tr>
+            
+        <tr class="imagens4">
+            <td>
+                <a href=""><img src="https://st.depositphotos.com/1637787/2927/i/600/depositphotos_29270411-stock-photo-happy-man-working-with-laptop.jpg" alt="propaganda3" class="imagens-propaganda3"></a>
+            </td>
+            <td>
+                <a href=""><img src="https://img.freepik.com/fotos-premium/pessoal-de-escritorio-na-gravata-solta-sentado-em-sua-mesa-lendo-uma-papelada-e-digitando-no-notebook_1423-5283.jpg" alt="" class="imagens-propaganda3" ></a>
+            </td>
+            <td>
+                <a href=""><img src="https://static.webarcondicionado.com.br/blog/uploads/2013/06/gralha_vidro.jpg" alt="" class="imagens-propaganda3"></a>
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                <p class="informativo5">
+                    Velocidades de conexão adequadas para <br> atividades para atividades cotidianas, como <br>  navegação na web, streaming de vídeos e  <br> jogos online.
+                </p>
+            </td>
+            <td>
+                <p class="informativo5">
+                    Voltados para empresas e organização, <br> oferecem velocidade mais altas, maior <br> capacidade de largura de banda e recursos <br> adicionais; priorização de tráfego e  garantias <br> de tempo de atividade.
+                </p>
+            </td>
+            <td>
+                <p class="informativo5">
+                    Velocidades ultra-rápidas, largura de banda <br> garantida e alta confiabilidade.  Ideais para <br> empresas que têm altas demandas de <br> conectividade, dependem de transferência <br> de dados intensiva ou exigem <br> conexões estáveis e consistentes.
+                </p>
+            </td>
+        </tr>
+
+    </table>
+    
+  </section>
+
+
+  <section id="divisoria2">
+    <form id = "formulario-orcamento" action = "/enviar_orcamento/" method = "post"> 
+      {% csrf_token %}
+      <h1 id="orcamento">CONVERSE CONOSCO E SOLICITE UM ORÇAMENTO</h1>
+    <p id="informativo">Nos envie um e-mail informando o plano que mais se adequa a você juntamente com seu endereço</p>
+    <div class="tabelaCadastro">
+        <table>
+            <tr>
+                <td class="colunas-tabelaCadastro">
+                    <input type="text" name="nome" id="l1" placeholder="NOME" >
+                </td>
+                <td rowspan="4" class="mensagem"> 
+                    <textarea rows="5" name="mensagem" id="mensagem" placeholder="Mensagem" ></textarea>
+                </td>
+            </tr>
+            <tr>
+                <td class="colunas-tabelaCadastro">
+                    <input type="text" name="email" id="l2" placeholder="EMAIL" >
+                </td>
+            </tr>
+            <tr>
+                <td class="colunas-tabelaCadastro">
+                    <input type="text" name="telefone" id="l3" placeholder="TELEFONE" >
+                </td>
+            </tr>
+            <tr>
+                <td class="colunas-tabelaCadastro">
+                    <input type="text" name="cep" id="l4" placeholder="CEP" >
+                </td>
+            </tr>
+            <tr>
+                <td></td>
+                <td colspan="4" id="espaco-butao2">
+                    <button id="botao2" type="submit" class="btn-primary btn-lg">ENVIAR</button>
+                </td>
+                <td></td>
+            </tr>
+        </table>
+    </div>
+    </form>
+    </section>
+
+    <section id="divisoria3">
+    <h1 id="planoflexivel">PLANOS MAIS CLÁSSICOS!</h1>
+
+    <div class="planos-container">
+        {% for plano in planos %}
+            {% if plano.id >= 1 and plano.id <= 3 %}
+                <div class="plano">
+                    <h2 class="titulo-plano">{{ plano.nome }}</h2>
+                    <table border='1'>
+                        <tr>
+                            <td>
+                                <p class="caracteristica">{{ plano.caracteristica }}</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p class="preco">{{ plano.preco }}</p>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+            {% endif %}
+        {% endfor %}
+    </div>
+</section>
+  
+
+  </section>
+  <section id = "divisoria32">
+    <form action = "{% url 'comentar' %}" method = "post">
+      {% csrf_token %}
+      <h1 id="planoflexivel">COMENTE MELHORAS PARA NOSSOS SERVIÇOS</h1>
+      <div class = 'tabelaComentario'>
+      <table>
+        <tr>
+          <td class="colunas-tabelaCadastro">
+              <input type="text" name="nome" id="l1" placeholder="NOME" >
+          </td>
+          <td rowspan="4" class="mensagem"> 
+              <textarea rows="5" name="mensagem" id="comentario" placeholder="COMENTE MELHORIAS OU PROBLEMAS DOS NOSSOS SERVIÇOS" ></textarea>
+          </td>
+        </tr>
+
+        <tr>
+            <td class="colunas-tabelaCadastro">
+                <input type="text" name="email" id="l2" placeholder="EMAIL" >
+            </td>
+        </tr>
+      
+        <tr>
+            <td id="espaco-butao-comentar">
+                <button id="botao-comentar" type="submit" class="btn-primary btn-lg">COMENTAR</button>
+            </td>
+        </tr>
+        </table>
+      </form>
+      </div>
+
+  </section>
+  
+<section id="divisoria33">
+    <h1 id="planoflexivel">PLANOS ECONÔMICOS</h1>
+    <div class="planos-container">
+        {% for plano in planos %}
+            {% if plano.id >= 4 and plano.id <= 6 %}
+                <div class="plano">   
+                  <a onclick = "planos()"class="titulo-plano"> {{ plano.nome }}</a>
+                    <table border='1'>
+                        <tr>
+                            <td>
+                                <p class="caracteristica">{{ plano.caracteristica }}</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p class="preco">{{ plano.preco }}</p>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+            {% endif %}
+        {% endfor %}
+    </div>
+
+
+    <h1 id="planoflexivel">PLANOS GO FAST</h1>
+    <div class="planos-container">
+          {% for plano in planos %}
+              {% if plano.id >= 7 and plano.id <= 9 %}
+                  <div class="plano">
+                      <a onclick = "planos()" class="titulo-plano">{{ plano.nome }}</a>
+                      <table border='1'>
+                          <tr>
+                              <td>
+                                  <p class="caracteristica">{{ plano.caracteristica }}</p>
+                              </td>
+                          </tr>
+                          <tr>
+                              <td>
+                                  <p class="preco">{{ plano.preco }}</p>
+                              </td>
+                          </tr>
+                      </table>
+                  </div>
+              {% endif %}
+          {% endfor %}
+      </div>
+
+    <h1 id="planoflexivel">PLANOS CORPORATIVOS</h1>
+      <div class="planos-container">
+            {% for plano in planos %}
+                {% if plano.id >= 10 and plano.id <= 12 %}
+                    <div class="plano">
+                        <a  onclick = "planos()" class="titulo-plano">{{ plano.nome }}</a>
+                        <table border='1'>
+                            <tr>
+                                <td>
+                                    <p class="caracteristica">{{ plano.caracteristica }}</p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <p class="preco">{{ plano.preco }}</p>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                {% endif %}
+            {% endfor %}
+        </div>
+      <div class = 'campo-link-equipamentos'>
+         <a  href="{% url 'equipamento' %}" class = "link-equipamentos" >VENHA CONHECER NOSSOS PRINCIPAIS EQUIPAMENTOS DE REDE </a>
+      </div>
+     
+    
+</section>
+
+
+
+    <section id="divisoria4">
+
+       
+        <div class="container carousel-container">
+            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" data-interval="7000">
+              <ol class="carousel-indicators">
+                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+              </ol>
+              <div class="carousel-inner">
+                <div class="carousel-item active" id="tamanho-imagem-carrossel">
+                  <img src="{% static 'imagens/sobre1.png' %}" class="d-block w-100" alt="Imagem 1">
+                </div>
+                <div class="carousel-item" id="tamanho-imagem-carrossel">
+                  <img src="{% static 'imagens/sobre2.png' %}" class="d-block w-100" alt="Imagem 2">
+                </div>
+                <div class="carousel-item" id="tamanho-imagem-carrossel">
+                  <img src="{% static 'imagens/sobre3.png' %}" class="d-block w-100" alt="Imagem 3">
+                </div>
+              </div>
+              <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Anterior</span>
+              </a>
+              <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Próximo</span>
+              </a>
+            </div>
+          </div>
+       
+
+    
+
+
+    
+  <section id="redes-sociais">
+    <ul class="campo-icones">
+      <table>
+        <tr>
+          <td class="espacamento-icones">
+            <a href="#" class="icones-redes"><img src="{% static 'imagens/Facebook_f_logo__2019_.svg-removebg-preview.png' %}" class="logo-facebook" alt=""></a>
+          </td>
+          <td class="espacamento-icones">
+            <a href="#" class="icones-redes"><img src="{% static 'imagens/logo-instagram.png' %}" class = "logo-instagram" alt=""></a>
+          </td>
+          <td class="espacamento-icones">
+            <a href="#" class="icones-redes"><img src="{% static 'imagens/logo-what.png' %}" class = "logo-whatssap" alt=""></a>
+          </td>
+        </tr>
+      </table>
+      
+    </ul>
+    
+
+  </section>
+          
+
+  <section id="divisoria5">
+    <div id="titulo">
+        <table>
+            <tr id="titulo">
+                <td id="titulo">
+                    MENU
+                </td>
+                <td id="titulo">
+                    PLANOS
+                </td>
+                <td id="titulo">
+                    CONTATO
+                </td>
+                <td id="titulo">
+                    DESENVOLVEDORES
+                </td>
+            </tr>
+            <div id="final">
+                <tr id="links-finais">
+                    <td>INÍCIO</td>
+                    <td>PARA VOCÊ</td>
+                    <td>(82) 2601-9878</td>
+                    <td>EDSON BARROS PONCIÚNCULA</td>
+                </tr>
+                <tr id="links-finais">
+                    <td>EMPRESA</td>
+                    <td>PARA EMPRESA</td>
+                    <td>contato@ecmrk.net.com</td>
+                    <td>MARIA RAISSA BEATRIZ CORDEIRO DA SILVA</td>
+                </tr>
+                <tr id="links-finais">
+                    <td>PLANOS</td>
+                    <td>PARA COORPORAÇÕES</td>
+                    <td>(82) 9 9825-9878 - FINANCEIRO</td>
+                    <td></td>
+                </tr>
+                <tr id="links-finais">
+                    <td>FALE CONOSCO</td>
+                    <td></td>
+                    <td>(82) 9 9365-9178 - SUPORTE</td>
+                    <td></td>
+                </tr>
+                <tr>
+                  
+                </tr>
+            </div>
+            
+        </table>
+    </div>
+    
+
+  </section>
+
+
+
+  <section class="container-final">
+    <div>
+        <p>CNPJ: 123.456.789-10</p>
+        <p>Endereço: Vila Maria, 240 - Palmeira dos Índios, Alagoas</p>
+        <p>Todos os direitos reservados &copy;2023   <strong>CONCORDNET</strong> </p>
+      </div>
+  </section>
+    
+  
+</body>
+</html>

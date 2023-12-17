@@ -1,0 +1,266 @@
+* {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+  }
+  
+  
+  .divisoria2 {
+      background: linear-gradient(to top, rgba(0, 183, 255, 1), rgba(255, 255, 255, 0.2));
+      background-size: cover;
+      background-repeat: no-repeat;
+      height: 650px;
+  }
+  
+  .imagem-logo {
+      padding: 5px 0px 10px 50px;
+  }
+  
+  .texto6 {
+      padding: 7px;
+      font-size: 20px;
+    }
+  
+  .divisoria0 {
+      height: 160px;
+      background-color: white;
+  }
+  
+  .divisoria1 {
+      background-color:  rgba(0, 183, 255, 1);
+      background-size: cover;
+      background-repeat: no-repeat;
+      height: 45px;
+     
+  }
+  .divisoria001 {
+      padding: 0px 0px 30px 0px;
+  }
+  
+  .titulo-areacliente {
+      color: rgba(5, 125, 223, 0.878);
+      font-size: 42px;
+      font-family:Georgia, 'Times New Roman', Times, serif;
+      padding: 0px 20px 0px 270px;
+  }
+  
+  .links-iniciais {
+      padding: 11px 10px 11px 10px;
+
+  }
+
+  a.links-titulais {
+      color: black;
+      text-align: center;
+      padding: 30px;
+  }
+
+  .perfil-titulo {
+      width: 285px;
+      height: 500px;
+      background-color:darkslategray;
+  }
+  .imagem-titulo {
+      width: 17px;
+      height: 17px;
+  }
+  .boas-vindas {
+      text-align: center;
+      padding: 15px 0px 0px 0px;
+      font-size: 18px;
+      font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+  .area-titulo {
+      padding: 2px 0px 0px 0px;
+  }
+  .caracteristicas-cliente {
+      padding: 20px 0px 0px 15px ;
+  }
+  .titulo-p1 {
+      background-color: rgb(148, 140, 140);
+      height: 50px;
+      width: 285px;
+      text-align: center;
+      border-radius: 3%;
+  }
+  .dadosPessoais {
+      text-align: center;
+      font-weight: bold;
+      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+      font-size: 18px;
+      padding: 0px 0px 20px 0px;
+  }
+  
+  ul {
+      list-style-type: none;
+  }
+
+  .espacamento {
+    padding: 50px 0px 30px 100px;
+  }
+
+
+  .campos {
+    padding: 50px 100px 0px 500px;
+  }
+
+  .plano-adquirido {
+    height: 200px;
+    width: 370px;
+    
+  }
+
+  .titulo-plano-adquirido {
+    height: 40px;
+    width: 350px;
+    border-radius: 5%;
+    background-color: crimson;
+  }
+
+  .roteador-instalado {
+    height: 200px;
+    width: 370px;
+    
+  }
+  .titulo-roteador-instalado {
+    height: 40px;
+    width: 350px;
+    background-color: greenyellow;
+    border-radius: 5%;  }
+
+  .pagamentos {
+    height: 200px;
+    width: 370px;
+    
+  }
+  .titulo-pagamentos {
+    height: 40px;
+    width: 350px;
+    border-radius: 5%;
+    background-color:forestgreen;
+  }
+
+  .mensagens {
+    padding: 50px 0px 0px 0px;
+    height: 200px;
+    width: 370px;
+  }
+
+  .titulo-mensagens {
+    height: 40px;
+    width: 370px;
+    background-color: chocolate;
+    border-radius: 5%;
+  }
+
+  .titulo-caracteristica {
+    text-align: center;
+    padding: 7px 2px 7px 2px;
+    font-weight: bold;
+    font-size: 20px;
+  }
+
+  li a.links-iniciais {
+    color: black; /* Cor padrão do texto do link */
+    text-decoration: none; /* Remove sublinhado padrão */
+    position: relative; /* Para permitir posicionamento de elementos filhos */
+  }
+  
+  /* Estilos para a animação de surgimento */
+  li a.links-iniciais::before {
+    content: ''; /* Adiciona um elemento vazio antes do conteúdo do link */
+    position: absolute;
+    width: 100%;
+    height: 2px; /* Altura da linha de animação */
+    bottom: 0;
+    left: 0;
+    background-color: rgb(58, 165, 198); /* Cor da animação */
+    transform: scaleX(0); /* Inicialmente a linha está escondida */
+    transform-origin: left;
+    transition: transform 0.3s ease; /* Transição suave */
+  }
+  
+  /* Quando o cursor está sobre o link, a animação é acionada */
+  li a.links-iniciais:hover::before {
+    transform: scaleX(1); /* A linha de animação cresce */
+  }
+
+  .container-final {
+    margin: 0 auto;
+    padding: 15px 0px 20px 0px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    background: linear-gradient(to top, rgba(0, 183, 255, 1), rgba(255, 255, 255, 0.2));
+  
+  }
+
+  .links-finais {
+    font-weight: bold;
+    color: black;
+    font-weight: bold;
+    padding: 0px 0px 0px 150px;
+  }
+  section#redes-sociais {
+    background: linear-gradient(to top, rgba(255, 255, 255, 0.2), rgba(0, 183, 255, 1));
+  }
+
+
+
+  li a.links-iniciais {
+    color: black; /* Cor padrão do texto do link */
+    text-decoration: none; /* Remove sublinhado padrão */
+    position: relative; /* Para permitir posicionamento de elementos filhos */
+  }
+
+  tr#links-finais {
+    font-weight: bold;
+    color: black;
+    font-weight: bold;
+  }
+  section#divisoria5 {
+    height: 300px;
+    background-color: white;
+    font-family: 'Times New Roman', Times, serif;
+  }
+    
+  div#titulo {
+    display: flex;
+    justify-content: center;
+  }
+  td#titulo {
+    color: rgba(5, 125, 223, 0.878);
+    padding: 40px 55px 40px 60px;
+    font-weight: bold;
+    font-size: 30px;
+   
+  }
+.campo-icones {
+  padding: 200px 0px 0px 0px;
+  display: flex;
+  justify-content: center;
+}
+.espacamento-icones {
+  padding: 0px 50px 0px 50px
+}
+
+.info-roteador {
+      padding: 4px 2px 4px 0px;
+  }
+.info-plano-servico {
+      padding: 4px 2px 4px 0px;
+  }
+.mensagem {
+      height: 35px;
+      width: 300px;
+      font-weight: bold
+  }
+button#botao-enviar {
+      height: 40px;
+      width: 60px;
+      font-weight: bold;
+  }
+.formulario-mensagens {
+      padding: 10px 0px 0px 0px
+    }
+
